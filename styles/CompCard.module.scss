@@ -1,0 +1,53 @@
+.cardWrapper {
+    display: block;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-image: url('/dark-grey-paper.gif');
+    background-color: #323232;
+    background-repeat: repeat;
+
+    clip-path: polygon(
+        0% 30px,    /* top left */
+        30px 0%,    /* top left */ 
+        100% 0%,    /* top right */
+        100% 100%,  /* bottom right */
+        0% 100%,    /* bottom left */
+    );
+}
+
+.titleWrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .subjectTitle {
+        line-height: 1;
+        font-size: 2.5rem;
+        color: #fff;
+    }
+
+    .categoryImg {
+        height: 40px;
+        width: 40px;
+        padding: 5px;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+}
+
+.description {
+    padding: 1.75rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    background-color: #f2502a;
+}
+
+
+@media only screen and (min-width: 20.0625em) {}
+
+@media only screen and (min-width: 40.0625em) {}
+
+@media only screen and (min-width: 60em) {}
+
+@media only screen and (min-width: 80em) {}
+
+@media only screen and (min-width: 90em) {}

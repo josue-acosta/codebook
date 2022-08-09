@@ -1,0 +1,35 @@
+.codeWrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50px 3.5fr 1fr;
+    padding: 1rem 0 2rem 0;
+
+    .pre {
+        padding: 1.5rem;
+        font-size: 0.875rem;
+        border: 1px solid #eee;
+        border-radius: 0.25rem;
+        box-shadow: 0 0.0625rem 0.375rem #eeeeee;
+        overflow-x: scroll;
+
+        &.code {
+            color: #444;
+            background-color: #fff;
+        }
+
+        &.console {
+            color: #eee;
+            background-color: #222;
+        }
+    }
+}
+
+@media only screen and (min-width: 20.0625em) {}
+
+@media only screen and (min-width: 40.0625em) {}
+
+@media only screen and (min-width: 60em) {}
+
+@media only screen and (min-width: 80em) {}
+
+@media only screen and (min-width: 90em) {}

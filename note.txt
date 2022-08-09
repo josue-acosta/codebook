@@ -1,0 +1,10 @@
+https://www.w3schools.com/charsets/ref_utf_box.asp
+// https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/
+https://alchemy.com/blog/how-to-polyfill-node-core-modules-in-webpack-5
+
+https://www.twilio.com/docs/conversations/best-practices-sdk-clients
+https://www.twilio.com/docs/conversations/initializing-conversations-sdk-clients
+https://www.twilio.com/docs/conversations
+http://media.twiliocdn.com/sdk/js/conversations/releases/2.1.0/docs/
+
+// https://www.twilio.com/docs/conversations/sdk-overview

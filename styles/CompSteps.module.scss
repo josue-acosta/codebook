@@ -1,0 +1,68 @@
+.majorStepWrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50px 3.5fr 1fr;
+    padding: 1rem 0;
+
+    .step {
+        margin-top: 3px;
+    }
+
+    .sentence {
+        line-height: 1;
+        padding-bottom: 10px;
+        font-size: 2.25rem;
+        font-weight: 600;
+        text-decoration: underline;
+        text-decoration-color: #eee;
+        transition: all 200ms;
+
+        &:hover {
+            text-decoration-color: #000000;
+        }
+    }
+    
+    .filePath {
+        padding: 0 0 10px 0;
+        display: block;
+        font-weight: 200;
+    }
+}
+
+.minorStepWrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50px 3.5fr 1fr;
+    padding: 1rem 0;
+
+    .sentence {
+        line-height: 1;
+        padding-bottom: 10px;
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    .filePath {
+        padding: 0 0 10px 0;
+        display: block;
+        font-weight: 200;
+    }
+
+    .sideNote {
+        display: inline-block;
+        padding: 0 0 10px 10px;
+        border-left: 0.5px solid #000;
+        font-weight: 200;
+        word-break: break-all;
+    }
+}
+
+@media only screen and (min-width: 20.0625em) {}
+
+@media only screen and (min-width: 40.0625em) {}
+
+@media only screen and (min-width: 60em) {}
+
+@media only screen and (min-width: 80em) {}
+
+@media only screen and (min-width: 90em) {}
