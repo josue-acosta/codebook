@@ -6,7 +6,7 @@ import PageTitle from '../../../components/PageTitle'
 import StepMajor from '../../../components/StepMajor'
 import StepMinor from '../../../components/StepMinor'
 import Code from '../../../components/Code'
-import * as data from './data'
+import * as data from '../../../utils/page-data/concurrently-data'
 
 export default function Concurrently() {
     return (
