@@ -14,11 +14,11 @@ function MyApp({ Component, pageProps }) {
         <Layout>
             <Head>
                 <title>Josue Acosta | Codebook</title>
-                <meta name="description" content="A book of my personal how-to's" />
+                <meta name="description" content="A book of my personal how-to&apos;s" />
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
                 <style>
-                    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;600&display=swap');
+                    @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;600&display=swap");
                 </style>
             </Head>
             <Header />
