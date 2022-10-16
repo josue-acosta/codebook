@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
                 <style>
-                    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;600&display=swap');
+                    @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;600&display=swap");
                 </style>
             </Head>
             <Header />
